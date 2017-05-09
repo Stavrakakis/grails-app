@@ -89,10 +89,16 @@ grails.hibernate.osiv.readonly = false
 environments {
     development {
         grails.logging.jul.usebridge = true
+        grails.mail.port = com.icegreen.greenmail.util.ServerSetupTest.SMTP.port
+        grails.serverURL = "http://localhost:8080/${appName}"
     }
     production {
         grails.logging.jul.usebridge = false
         // TODO: grails.serverURL = "http://www.changeme.com"
+    }
+    test {
+        grails.mail.port = com.icegreen.greenmail.util.ServerSetupTest.SMTP.port
+        grails.serverURL = "http://localhost:8080/${appName}"
     }
 }
 

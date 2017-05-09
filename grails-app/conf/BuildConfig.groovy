@@ -65,12 +65,12 @@ grails.project.dependency.resolution = {
         compile ':spring-security-core:2.0-RC5'
         compile ":mail:1.0.7"
         compile ":greenmail:1.3.4"
+        compile "org.grails.plugins:build-test-data:2.4.0"
         // plugins needed at runtime but not for compilation
         runtime ":hibernate4:4.3.8.1" // or ":hibernate:3.6.10.18"
         runtime ":database-migration:1.4.0"
         runtime ":jquery:1.11.1"
         runtime ':twitter-bootstrap:3.3.5'
-
         // Uncomment these to enable additional asset-pipeline capabilities
         //compile ":sass-asset-pipeline:1.9.0"
         //compile ":less-asset-pipeline:1.10.0"
