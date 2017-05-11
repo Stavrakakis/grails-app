@@ -14,6 +14,7 @@ I have tried to put the actual data loading and service logic into services, so 
 4. The greenmail test server will be hosted at http://localhost:8080/seCodingChallenge/greenmail/list
 5. The home page is the account summary screen, with a menu bar allowing navigation to the "Pay" screen.
 6. Run tests using ```test-app```.
+7. I only tested in Google Chrome.
 
 ### Data
 Three test accounts are created and initialized on application startup.
